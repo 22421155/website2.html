@@ -1,0 +1,78 @@
+* {
+	padding: 0;
+	margin: 0;
+}
+
+body {
+	background-image: url("sky.jpeg");
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	background-position: center;
+	background-size: 100vw auto;
+}
+
+@media screen and (max-aspect-ratio: 3/2) {
+	body {
+		background-size: auto 100vh;
+	}
+}
+
+header {
+	background-color: deepskyblue;
+	text-align: center;
+}
+
+nav {
+	background-color: lightblue;
+}
+
+.w1 {
+	position: absolute;
+	top: 280px;
+	left: 70px;
+	width: 30px;
+	height: 30px;
+	border-radius: 25px;
+	background-color: lightgreen;
+}
+
+.w2 {
+	position: absolute;
+	top: 350px;
+	left: 300px;
+	border-radius: 25px;
+	background-color: yellowgreen;
+	width: 30px;
+	height: 30px;
+}
+
+.w3 {
+	position: absolute;
+	top: 100px;
+	left: 400px;
+	border-radius: 25px;
+	background-color: lightblue;
+	width: 30px;
+	height: 30px;
+}
+
+li {
+	list-style: none;
+}
+
+.rb {
+	background-color: red;
+}
+
+.p {
+	line-height: 100px;
+}
+
+.gb {
+	background-color: green;
+}
+
+.bb {
+	background-color: blue;
+}
+
